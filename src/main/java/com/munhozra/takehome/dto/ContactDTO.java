@@ -1,15 +1,14 @@
 package com.munhozra.takehome.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
 import lombok.Data;
-
-import java.time.LocalDateTime;
+import lombok.NoArgsConstructor;
 
 @Data
-public class MockAPIContactDTO {
-    @JsonProperty
-    private Long Id;
-
+@NoArgsConstructor
+@AllArgsConstructor
+public class ContactDTO {
     @JsonProperty
     private String firstName;
 
@@ -18,12 +17,4 @@ public class MockAPIContactDTO {
 
     @JsonProperty
     private String email;
-
-/*
-    @JsonProperty
-    private String avatar;
-
-    @JsonProperty
-    private LocalDateTime createdAt;
-*/
 }
