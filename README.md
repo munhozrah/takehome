@@ -5,7 +5,7 @@ Takehome is an application that implements a single endpoint to gather informati
 - Spring MVC
 
 ### Documentation
-More about this app [here](https://docs.google.com/document/d/1jaTWBRPbMNBoDPt1BohpsF4Vo1XRopXN8vklZKcam88/edit?usp=sharing)
+More about this app and the video description [here](https://docs.google.com/document/d/1jaTWBRPbMNBoDPt1BohpsF4Vo1XRopXN8vklZKcam88/edit?usp=sharing)
 
 ## Installation
 
@@ -21,12 +21,12 @@ This applications expects the following variables as environments variables or p
 Use maven to build
 
 ```bash
-mvn clean install
+.mvnw clean install
 ```
 
 The easiest way to run is using maven, considering the environement variables are set
 ```bash
-mvn spring-boot:run
+.mvnw spring-boot:run
 ```
 
 ## Usage
